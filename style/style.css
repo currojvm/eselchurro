@@ -1,0 +1,167 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+header{
+    margin-top: 24px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    padding: 20px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;  
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;   
+}
+
+.line{
+    border: 2px solid black;
+    gap: 30px;
+}
+
+nav{
+    display: flex;
+    gap: 24px;
+    font-size: 36px;
+    padding-bottom: 20px;
+    text-align: right;
+}
+header section{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+}
+header section div{
+    width: 40%;
+    max-width: 580px;    
+}
+img{
+    width: 100%;
+    border-radius: 20px;
+    max-height: 100%;
+}
+.project-container {
+    display: flex;
+    justify-content: space-around; /* Para distribuir el espacio uniformemente */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en la siguiente línea si es necesario */
+}
+.cartas {
+    flex: 1;
+    margin: 10px;
+    text-align: left;
+    padding: 20px;
+    border: 3px solid #000; /* Border corregido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    border-radius: 20px; /* Bordes redondeados opcional */
+    
+}
+.cartas img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+.cartas a {
+    display: inline-block; /* Hace que el enlace sea inline-block */
+    text-align: right; /* Alinea el texto a la derecha dentro del enlace */
+    width: 100%; /* Asegura que el enlace ocupe todo el ancho disponible */
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    margin-top: 40px; /* Espacio entre el texto y el enlace */
+    
+}
+.cartas a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+section div h3{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 25px;
+}
+.titulo{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+nav a{
+    display: inline-block; /* Hace que el enlace sea inline-block */
+    text-align: right; /* Alinea el texto a la derecha dentro del enlace */
+    width: 100%; /* Asegura que el enlace ocupe todo el ancho disponible */
+    color: #000000; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+    margin-top: 10px; /* Espacio entre el texto y el enlace */
+}
+.orden {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: flex-start; /* Align items at the start of the container */
+    gap: 10px; /* Optional: space between items */
+}
+#main-footer {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.footer-section {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.footer-section a {
+    color: #E1306C; /* Initial color for Instagram */
+    font-size: 18px; /* Font size for better readability */
+    text-decoration: none; /* Remove underline from links */
+    margin: 5px 15px; /* Margin between links */
+    transition: color 0.3s; /* Smooth transition for color change on hover */
+}
+
+.footer-section a[href*="youtube"] {
+    color: #FF0000; /* YouTube brand color */
+}
+
+.footer-section a[href*="mailto"] {
+    color: #000000; /* Email link color */
+}
+
+.footer-section a:hover {
+    color: #fff; /* Change color to white on hover */
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+}
+.line2{
+    border: 2px solid black;
+    gap: 30px;
+}
+.project{
+    padding-bottom: 50px;
+}
